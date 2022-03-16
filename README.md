@@ -1,7 +1,9 @@
 # linux_cmd
 
-# find a file
+#find a file
+
 $sudo find . -type f |  grep cuda.h
 
-# check disk spcae
+#check disk spcae
+
 $df -h
