@@ -18,3 +18,10 @@ lrwxrwxrwx 1 root root       20 Mar 17 16:25 libcuda.so -> libcuda.so.470.82.01
 #how to find avail packages 
 
 $sudo dnf  list --available | grep "nv"
+
+#
+$sudo apt-get autoclean #to clean up outdated package deb files
+#
+$sudo apt-get autoremove #to remove any unused dependencies
+#
+$sudo apt-get clean #to clean up apt cache
