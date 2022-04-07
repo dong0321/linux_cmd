@@ -34,3 +34,8 @@ In nutshell, it means that the package is not completely removed. The configurat
 $dpkg --list |grep "^rc"
 
 $dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs dpkg --purge
+
+#
+$docker image ls
+$docker rmi imageId
+ 
