@@ -40,4 +40,4 @@ $docker image ls
 $docker rmi imageId
  
  #
- gcc --vrsion -v #list gcc configuration
+ gcc --version -v #list gcc configuration
