@@ -39,3 +39,5 @@ $dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs dpkg --purge
 $docker image ls
 $docker rmi imageId
  
+ #
+ gcc --vrsion -v #list gcc configuration
