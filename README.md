@@ -19,12 +19,12 @@ lrwxrwxrwx 1 root root       20 Mar 17 16:25 libcuda.so -> libcuda.so.470.82.01
 
 $sudo dnf  list --available | grep "nv"
 
-#
-$sudo apt-get autoclean #to clean up outdated package deb files
-#
-$sudo apt-get autoremove #to remove any unused dependencies
-#
-$sudo apt-get clean #to clean up apt cache
+# Clear packages
+ - $sudo apt-get autoclean #to clean up outdated package deb files
+
+ - $sudo apt-get autoremove #to remove any unused dependencies
+
+ - $sudo apt-get clean #to clean up apt cache
 
 #
 1. r: the package was marked for removal
@@ -41,3 +41,6 @@ $docker rmi imageId
  
  #
  gcc --version -v #list gcc configuration
+
+#
+ls /sys/class/infiniband
