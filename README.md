@@ -18,6 +18,7 @@ $df -h
 #how to find avail packages 
 
 $sudo dnf  list --available | grep "nv"
+$rpm -qa | grep "nv"
 
 # Clear packages
  - $sudo apt-get autoclean #to clean up outdated package deb files
